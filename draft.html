@@ -33,7 +33,7 @@ d.documentElement.classList.add("rdy");};var fire=function(){if(d.fonts&&d.fonts
 }
 d.addEventListener("load",function(ev){var t=ev.target;if(t&&t.tagName==="IMG"&&t.hasAttribute("data-cdn")){good++;if(t.parentNode&&t.parentNode.classList){t.parentNode.classList.add("ok");}}},true);d.addEventListener("error",function(ev){var t=ev.target,pr;if(!t||t.tagName!=="IMG"||!t.hasAttribute("data-cdn"))return;t.classList.add("err");bad++;if(bad>=3&&!good&&!probing&&!window.tlCdn.off){probing=true;pr=new Image();pr.onload=function(){good++;};pr.onerror=function(){stop();};pr.src="https://sleepercdn.com/images/team_logos/nfl/kc.png";}
 },true);})();</script>
-<link rel="stylesheet" href="assets/app.debc0b1ee9.css">
+<link rel="stylesheet" href="assets/app.28aed539cf.css">
 <link rel="stylesheet" href="assets/pages.b67cce1437.css">
 </head>
 <body>
